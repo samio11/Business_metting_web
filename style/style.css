@@ -27,3 +27,61 @@
    text-decoration: none;
    color: black;
 }
+
+.head_content{
+    height: 90vh;
+    width: 100vw;
+    background-image: url('../asset/image/blog-3.jpg'),linear-gradient(45deg,#000,#0000004b);
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.s1{
+    color: red;
+}
+
+.head_box{
+    height: 400px;
+    width: 600px;
+    /* background-color: black; */
+    margin-top: 200px;
+    color: white;
+    padding: 20px;
+}
+
+.head_box > h2{
+    font-size: 40px;
+    font-weight: bolder;
+    margin-bottom: 15px;
+}
+
+.head_box > p{
+      margin-bottom: 15px;
+      /* text-align: left; */
+}
+
+.btn1{
+    height: 50px;
+    width: 150px;
+    background-color: red;
+    color: white;
+    font-size: 15px;
+    border: 0px;
+    border-radius: 10px;
+    margin-right: 10px;
+}
+
+.btn2{
+    height: 50px;
+    width: 150px;
+    background-color:white;
+    color: red;
+    font-size: 15px;
+    border: 0px;
+    border-radius: 10px;
+}
