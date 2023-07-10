@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.head_manu{
+    width: 100vw;
+    height: 70px;
+    background-color: grey;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.head_ul{
+    display: flex;
+    /* justify-content: space-around; */
+    align-items: center;
+    list-style: none;
+}
+
+.head_ul > li{
+   padding-right: 15px;
+}
+
+.head_manu li > a{
+   text-decoration: none;
+   color: black;
+}
